@@ -1,1 +1,4 @@
-SELECT * from users where dayofweek(registration_date) in(1,7);
+SELECT city, COUNT(*) AS total_users
+FROM users
+GROUP BY city
+HAVING COUNT(*) > 1;

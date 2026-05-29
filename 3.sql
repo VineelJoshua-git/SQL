@@ -1,0 +1,1 @@
+SELECT city,count(*) from users GROUP BY city;

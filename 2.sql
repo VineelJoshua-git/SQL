@@ -1,0 +1,1 @@
+SELECT * from users order by registration_date desc;

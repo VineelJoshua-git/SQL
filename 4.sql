@@ -1,0 +1,1 @@
+select city,count(*) as total_users from users group by city having count(*)>5;

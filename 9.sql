@@ -1,0 +1,1 @@
+SELECT month(registration_date) as month,count(*) as total_users from users group by month(registration_date);

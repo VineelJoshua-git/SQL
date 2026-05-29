@@ -1,0 +1,1 @@
+SELECT * from events WHERE datediff(end_date,start_date)>2;

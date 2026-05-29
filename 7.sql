@@ -1,0 +1,1 @@
+SELECT * from users where dayofweek(registration_date) in (1,7);

@@ -1,0 +1,1 @@
+SELECT * from users where registration_date>='2026-05-01'

@@ -1,0 +1,1 @@
+select * from users where full_name like 'A%';
